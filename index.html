@@ -13,29 +13,59 @@
        and the start of the fonts families-->
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Lexend+Deca&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap" rel="stylesheet" />
   <!-- end of fonts families -->
-  <title>Frontend Mentor | Stats preview card component</title>
+  <title>Frontend Mentor | Profile card component</title>
  </head>
  <body>
   <div class="center">
-    <div id="remove-events"></div>
-    <main id="main">
-     <section>
-     </section>
-    </main>
-    <footer class="attribution">
-     <div id="logo"><img src="/images/logo.jpg" alt="OS logo" /></div>
-     <ul id="about" class="none">
-      <li>
-       Challenge by
-       <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>
-       . Coded by
-       <a href="https://www.frontendmentor.io/profile/omarsaleh11" target="_blank">Omar Saleh</a>
-       .
-      </li>
-     </ul>
-    </footer>
+   <div id="remove-events"></div>
+   <main id="main">
+    <section class="card">
+     <article class="card--top">
+      <div class="card--top--pattern"><img src="/images/bg-pattern-card.svg" aria-hidden="true" /></div>
+      <div class="card--top--img"><img src="/images/image-victor.jpg" alt="Victor Crest Image" /></div>
+      <div class="card--top--info">
+       <div class="card--top--info--name">
+        <h1>Victor Crest</h1>
+       </div>
+       <div class="card--top--info--age">
+        <p>26</p>
+       </div>
+      </div>
+      <div class="card--top--country"><h2>London</h2></div>
+     </article>
+     <div class="card--line"></div>
+     <article class="card--bottom">
+      <ul>
+       <li>
+        <h3>80K</h3>
+        <p>Followers</p>
+       </li>
+       <li>
+        <h3>803K</h3>
+        <p>Likes</p>
+       </li>
+       <li>
+        <h3>1.4K</h3>
+        <p>Photos</p>
+       </li>
+      </ul>
+     </article>
+    </section>
+   </main>
+   <footer class="attribution">
+    <div id="logo"><img src="/images/logo.jpg" alt="OS logo" /></div>
+    <ul id="about" class="none">
+     <li>
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>
+      . Coded by
+      <a href="https://www.frontendmentor.io/profile/omarsaleh11" target="_blank">Omar Saleh</a>
+      .
+     </li>
+    </ul>
+   </footer>
   </div>
  </body>
 </html>
